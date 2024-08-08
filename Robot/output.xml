@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0.1 (Python 3.12.4 on win32)" generated="2024-08-08T18:24:40.740897" rpa="false" schemaversion="5">
+<suite id="s1" name="Robot" source="C:\Users\alexandra.safir\PycharmProjects\Robot">
+<suite id="s1-s1" name="Tests" source="C:\Users\alexandra.safir\PycharmProjects\Robot\tests">
+<suite id="s1-s1-s1" name="Login" source="C:\Users\alexandra.safir\PycharmProjects\Robot\tests\login.robot">
+<test id="s1-s1-s1-t1" name="Login to Example Site" line="9">
+<kw name="Login To Application" owner="keywords">
+<kw name="Open Login Page" owner="loginPage">
+<kw name="Open Browser" owner="Browser">
+<msg time="2024-08-08T18:24:43.037521" level="WARN">Open Browser is for quick experimentation and debugging only. Use New Page for production.</msg>
+<msg time="2024-08-08T18:24:43.037521" level="INFO">{"browser": "firefox", "headless": false, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "C:\\Users\\alexandra.safir\\PycharmProjects\\Robot\\browser\\traces\\08a0dbda-4931-4b89-9580-b1c7ad05a8df"}</msg>
+<msg time="2024-08-08T18:24:43.993762" level="INFO">Successfully created browser with options: {"browser":"firefox","headless":false,"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"tracesDir":"C:\\Users\\alexandra.safir\\PycharmProjects\\Robot\\browser\\traces\\08a0dbda-4931-4b89-9580-b1c7ad05a8df"}</msg>
+<msg time="2024-08-08T18:24:43.993762" level="INFO">{
+  "acceptDownloads": true,
+  "bypassCSP": true,
+  "forcedColors": "none",
+  "ignoreHTTPSErrors": false,
+  "javaScriptEnabled": true,
+  "offline": false,
+  "reducedMotion": "no-preference",
+  "serviceWorkers": "allow",
+  "viewport": {
+    "width": 1280,
+    "height": 720
+  }
+}</msg>
+<msg time="2024-08-08T18:24:44.047775" level="INFO">Successfully created context. </msg>
+<msg time="2024-08-08T18:24:44.047775" level="INFO">{'acceptDownloads': True, 'bypassCSP': True, 'forcedColors': 'none', 'ignoreHTTPSErrors': False, 'javaScriptEnabled': True, 'offline': False, 'reducedMotion': 'no-preference', 'serviceWorkers': 'allow', 'viewport': {'width': 1280, 'height': 720}}</msg>
+<msg time="2024-08-08T18:24:48.167681" level="INFO">Successfully initialized new page object and opened url: https://www.casino777.ch/</msg>
+<arg>${URL}</arg>
+<arg>firefox</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Opens a new browser instance. Use this keyword for quick experiments or debugging sessions.</doc>
+<status status="PASS" start="2024-08-08T18:24:43.036527" elapsed="5.131154"/>
+</kw>
+<status status="PASS" start="2024-08-08T18:24:43.035523" elapsed="5.132158"/>
+</kw>
+<kw name="Click Accept button" owner="loginPage">
+<kw name="Click" owner="Browser">
+<msg time="2024-08-08T18:24:48.168681" level="INFO">Clicks the element 'id=didomi-notice-agree-button'.</msg>
+<arg>id=didomi-notice-agree-button</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2024-08-08T18:24:48.168681" elapsed="0.664371"/>
+</kw>
+<status status="PASS" start="2024-08-08T18:24:48.167681" elapsed="0.665371"/>
+</kw>
+<kw name="Click Login button" owner="loginPage">
+<kw name="Click" owner="Browser">
+<msg time="2024-08-08T18:24:48.833052" level="INFO">Clicks the element '.login_btn'.</msg>
+<arg>.login_btn</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2024-08-08T18:24:48.833052" elapsed="0.363064"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-08-08T18:24:54.196299" level="INFO">Slept 5 seconds.</msg>
+<arg>5</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-08-08T18:24:49.196116" elapsed="5.000183"/>
+</kw>
+<status status="PASS" start="2024-08-08T18:24:48.833052" elapsed="5.363247"/>
+</kw>
+<kw name="Input Username" owner="loginPage">
+<kw name="Type Text" owner="Browser">
+<msg time="2024-08-08T18:24:54.197752" level="INFO">Types the text 'test_asafir' in the given field.</msg>
+<arg>xpath=/html/body/div[2]/div[6]/div/div[3]/form/div[1]/input</arg>
+<arg>${USERNAME}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Types the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="PASS" start="2024-08-08T18:24:54.196299" elapsed="0.844827"/>
+</kw>
+<arg>test_asafir</arg>
+<status status="PASS" start="2024-08-08T18:24:54.196299" elapsed="0.844827"/>
+</kw>
+<kw name="Input Password" owner="loginPage">
+<kw name="Type Text" owner="Browser">
+<msg time="2024-08-08T18:24:55.042126" level="INFO">Types the text 'Sjgimo@777' in the given field.</msg>
+<arg>xpath=/html/body/div[2]/div[6]/div/div[3]/form/div[2]/input</arg>
+<arg>${PASSWORD}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Types the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="PASS" start="2024-08-08T18:24:55.042126" elapsed="0.614653"/>
+</kw>
+<arg>Sjgimo@777</arg>
+<status status="PASS" start="2024-08-08T18:24:55.041126" elapsed="0.615653"/>
+</kw>
+<kw name="Click Submit Login Button" owner="loginPage">
+<kw name="Click" owner="Browser">
+<msg time="2024-08-08T18:24:55.657777" level="INFO">Clicks the element 'id=submit-login'.</msg>
+<arg>id=submit-login</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2024-08-08T18:24:55.656779" elapsed="0.289157"/>
+</kw>
+<status status="PASS" start="2024-08-08T18:24:55.656779" elapsed="0.290159"/>
+</kw>
+<kw name="Close Browser" owner="Browser">
+<msg time="2024-08-08T18:24:56.835588" level="INFO">Closed browser</msg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2024-08-08T18:24:55.946938" elapsed="0.889648"/>
+</kw>
+<arg>${USERNAME}</arg>
+<arg>${PASSWORD}</arg>
+<status status="PASS" start="2024-08-08T18:24:43.035523" elapsed="13.801063"/>
+</kw>
+<doc>A simple test case to log in to the example site using POM.</doc>
+<status status="PASS" start="2024-08-08T18:24:43.032521" elapsed="13.804065"/>
+</test>
+<status status="PASS" start="2024-08-08T18:24:40.779897" elapsed="16.102701"/>
+</suite>
+<status status="PASS" start="2024-08-08T18:24:40.777898" elapsed="16.142359"/>
+</suite>
+<status status="PASS" start="2024-08-08T18:24:40.742891" elapsed="16.177366"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Robot">Robot</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1" name="Tests">Robot.Tests</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1-s1" name="Login">Robot.Tests.Login</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2024-08-08T18:24:43.037521" level="WARN">Open Browser is for quick experimentation and debugging only. Use New Page for production.</msg>
+</errors>
+</robot>

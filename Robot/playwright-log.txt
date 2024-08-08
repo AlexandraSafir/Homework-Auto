@@ -1,0 +1,71 @@
+{"level":30,"time":"2024-08-08T15:24:42.582Z","pid":15864,"hostname":"LAP3-079","msg":"Listening on 55896"}
+(node:15864) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+{"level":30,"time":"2024-08-08T15:24:43.030Z","pid":15864,"hostname":"LAP3-079","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-08-08T15:24:43.031Z","pid":15864,"hostname":"LAP3-079","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-08-08T15:24:43.034Z","pid":15864,"hostname":"LAP3-079","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-08-08T15:24:43.034Z","pid":15864,"hostname":"LAP3-079","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-08-08T15:24:43.041Z","pid":15864,"hostname":"LAP3-079","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2024-08-08T15:24:43.991Z","pid":15864,"hostname":"LAP3-079","msg":"Adding browser to stack: firefox, version: 127.0"}
+{"level":30,"time":"2024-08-08T15:24:43.992Z","pid":15864,"hostname":"LAP3-079","msg":"End of node method newBrowser"}
+{"level":30,"time":"2024-08-08T15:24:43.992Z","pid":15864,"hostname":"LAP3-079","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2024-08-08T15:24:43.997Z","pid":15864,"hostname":"LAP3-079","msg":"Start of node method newContext"}
+{"level":30,"time":"2024-08-08T15:24:43.997Z","pid":15864,"hostname":"LAP3-079","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2024-08-08T15:24:43.997Z","pid":15864,"hostname":"LAP3-079","msg":"Trace file: "}
+{"level":30,"time":"2024-08-08T15:24:44.045Z","pid":15864,"hostname":"LAP3-079","msg":"Changed active context"}
+{"level":30,"time":"2024-08-08T15:24:44.045Z","pid":15864,"hostname":"LAP3-079","msg":"End of node method newContext"}
+{"level":30,"time":"2024-08-08T15:24:44.050Z","pid":15864,"hostname":"LAP3-079","msg":"Start of node method newPage"}
+{"level":30,"time":"2024-08-08T15:24:44.050Z","pid":15864,"hostname":"LAP3-079","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2024-08-08T15:24:45.632Z","pid":15864,"hostname":"LAP3-079","msg":"Video path: undefined"}
+{"level":30,"time":"2024-08-08T15:24:45.633Z","pid":15864,"hostname":"LAP3-079","msg":"Changed active page"}
+{"level":30,"time":"2024-08-08T15:24:48.166Z","pid":15864,"hostname":"LAP3-079","msg":"End of node method newPage"}
+{"level":30,"time":"2024-08-08T15:24:48.170Z","pid":15864,"hostname":"LAP3-079","msg":"Start of node method click"}
+{"level":30,"time":"2024-08-08T15:24:48.171Z","pid":15864,"hostname":"LAP3-079","msg":"Strict mode is enabled, find Locator with id=didomi-notice-agree-button in page."}
+{"level":30,"time":"2024-08-08T15:24:48.832Z","pid":15864,"hostname":"LAP3-079","msg":"End of node method click"}
+{"level":30,"time":"2024-08-08T15:24:48.835Z","pid":15864,"hostname":"LAP3-079","msg":"Start of node method click"}
+{"level":30,"time":"2024-08-08T15:24:48.835Z","pid":15864,"hostname":"LAP3-079","msg":"Strict mode is enabled, find Locator with .login_btn in page."}
+{"level":30,"time":"2024-08-08T15:24:49.195Z","pid":15864,"hostname":"LAP3-079","msg":"End of node method click"}
+{"level":30,"time":"2024-08-08T15:24:54.200Z","pid":15864,"hostname":"LAP3-079","msg":"Start of node method typeText"}
+{"level":30,"time":"2024-08-08T15:24:54.200Z","pid":15864,"hostname":"LAP3-079","msg":"Strict mode is enabled, find Locator with xpath=/html/body/div[2]/div[6]/div/div[3]/form/div[1]/input in page."}
+{"level":30,"time":"2024-08-08T15:24:55.038Z","pid":15864,"hostname":"LAP3-079","msg":"End of node method typeText"}
+{"level":30,"time":"2024-08-08T15:24:55.044Z","pid":15864,"hostname":"LAP3-079","msg":"Start of node method typeText"}
+{"level":30,"time":"2024-08-08T15:24:55.044Z","pid":15864,"hostname":"LAP3-079","msg":"Strict mode is enabled, find Locator with xpath=/html/body/div[2]/div[6]/div/div[3]/form/div[2]/input in page."}
+{"level":30,"time":"2024-08-08T15:24:55.655Z","pid":15864,"hostname":"LAP3-079","msg":"End of node method typeText"}
+{"level":30,"time":"2024-08-08T15:24:55.659Z","pid":15864,"hostname":"LAP3-079","msg":"Start of node method click"}
+{"level":30,"time":"2024-08-08T15:24:55.659Z","pid":15864,"hostname":"LAP3-079","msg":"Strict mode is enabled, find Locator with id=submit-login in page."}
+{"level":30,"time":"2024-08-08T15:24:55.945Z","pid":15864,"hostname":"LAP3-079","msg":"End of node method click"}
+{"level":30,"time":"2024-08-08T15:24:55.949Z","pid":15864,"hostname":"LAP3-079","msg":"Start of node method closeBrowser"}
+{"level":30,"time":"2024-08-08T15:24:55.962Z","pid":15864,"hostname":"LAP3-079","msg":"Removed page=d620e421-bb6e-4bd1-9f83-d82d534c4515 from context=f2e0e959-0eef-4a75-9941-989481156b48 page stack"}
+{"level":30,"time":"2024-08-08T15:24:56.835Z","pid":15864,"hostname":"LAP3-079","msg":"End of node method closeBrowser"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (C:\Users\alexandra.safir\PycharmProjects\Robot\.venv\Lib\site-packages\Browser\wrapper\index.js:10062:15)
+    at PlaywrightServer.getActiveBrowser (C:\Users\alexandra.safir\PycharmProjects\Robot\.venv\Lib\site-packages\Browser\wrapper\index.js:10678:59)
+    at PlaywrightServer.setTimeout (C:\Users\alexandra.safir\PycharmProjects\Robot\.venv\Lib\site-packages\Browser\wrapper\index.js:10915:57)
+    at Object.onReceiveHalfClose (C:\Users\alexandra.safir\PycharmProjects\Robot\.venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1347:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\alexandra.safir\PycharmProjects\Robot\.venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:564:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\alexandra.safir\PycharmProjects\Robot\.venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:604:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\alexandra.safir\PycharmProjects\Robot\.venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:372:18)
+    at ServerHttp2Stream.emit (node:events:531:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+=============================================================
+{"level":30,"time":"2024-08-08T15:24:56.880Z","pid":15864,"hostname":"LAP3-079","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-08-08T15:24:56.880Z","pid":15864,"hostname":"LAP3-079","msg":"End of node method getBrowserCatalog"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (C:\Users\alexandra.safir\PycharmProjects\Robot\.venv\Lib\site-packages\Browser\wrapper\index.js:10062:15)
+    at PlaywrightServer.getActiveBrowser (C:\Users\alexandra.safir\PycharmProjects\Robot\.venv\Lib\site-packages\Browser\wrapper\index.js:10678:59)
+    at PlaywrightServer.setTimeout (C:\Users\alexandra.safir\PycharmProjects\Robot\.venv\Lib\site-packages\Browser\wrapper\index.js:10915:57)
+    at Object.onReceiveHalfClose (C:\Users\alexandra.safir\PycharmProjects\Robot\.venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1347:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\alexandra.safir\PycharmProjects\Robot\.venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:564:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\alexandra.safir\PycharmProjects\Robot\.venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:604:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\alexandra.safir\PycharmProjects\Robot\.venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:372:18)
+    at ServerHttp2Stream.emit (node:events:531:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+=============================================================
+{"level":30,"time":"2024-08-08T15:24:56.918Z","pid":15864,"hostname":"LAP3-079","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-08-08T15:24:56.918Z","pid":15864,"hostname":"LAP3-079","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-08-08T15:24:57.262Z","pid":15864,"hostname":"LAP3-079","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2024-08-08T15:24:57.262Z","pid":15864,"hostname":"LAP3-079","msg":"End of node method closeAllBrowsers"}
